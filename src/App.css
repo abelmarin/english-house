@@ -324,7 +324,15 @@ footer {
     text-justify: inter-word;
 }
 
-.beginner-btn, .intermediate-btn, .advanced-btn {
+.modalBanner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-btn {
     display: block;
     margin: .7rem auto;
     width: 5rem; 
@@ -358,7 +366,7 @@ footer {
 
 .close {
     display: block;
-    margin: 0 1rem 0 470px;
+    margin: 0 0 0 470px;
     border: none;
     border-radius: 50%;
     background:  #3182af;
