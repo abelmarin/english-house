@@ -366,7 +366,7 @@ footer {
 
 .close {
     display: block;
-    margin: 0 0 0 470px;
+    margin: 0 1rem 0 470px;
     border: none;
     border-radius: 50%;
     background:  #3182af;
@@ -385,7 +385,7 @@ footer {
 
 @media screen and (max-width: 800px) {
     .card {
-        width: 95%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         height: auto;
@@ -400,13 +400,24 @@ footer {
     .card-image {
         margin: 1rem auto;
         width: 200px;
-        height: auto;
+        height: 200px;
     }
 
     .popup-content {
         max-width: 80%;
     }
 
+    .close {
+        display: block;
+        margin: 0 auto 0 285px;
+        border: none;
+        border-radius: 50%;
+        background:  #3182af;
+        color: white;
+        outline: none;
+        font-size: 1.4rem;
+        width: 1.5rem; height: 1.5rem;
+    }
 }
 
 
