@@ -77,7 +77,7 @@ export const Courses = () => {
                     <img src={advancedCourses} alt="Two Students" className="schoolPic" />
                 </div>
                 <div className="card-text">
-                    <h2>Advance Courses</h2>
+                    <h2>Advanced Courses</h2>
                     <p>Grades 7-9 (C300a-b): This course provides an engaging and interactive learning experience for children age between 14-16.</p>
                     <Popup trigger=
                         {<button className="modal-btn">Read More</button>}
@@ -86,7 +86,7 @@ export const Courses = () => {
                             <div>
                                 <button className="close" onClick={close}>&times;</button>
                                 <img src={advancedBanner} alt="Advanced Banner" className="modalBanner" />
-                                <h1>Advance Courses</h1>
+                                <h1>Advanced Courses</h1>
                                 <p className="modalText">
                                     Grades 7-9 (C300a-b): This course provides an engaging and interactive learning experience for children age between 14-16. In this course, students will be focusing on developing and practicing sentence-diagramming in an advance level. Students will be learning the contents through reading comprehension, video listening, speaking, and roleplaying with emphasis on grammar at an advance level.<br/><br/>
                                     Grades 9-12 (C-Advance): This course provides an engaging and more intensive learning experience for teenagers age between 15-18. In this course, students will be taught advance grammar and will learn to elevate their knowledge in the English language. Students will be taught through writing, speaking, and listening exercises.</p>
